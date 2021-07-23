@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>bwin</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link type="image/x-icon" rel="shortcut icon" href="/images/logo.ico" />
+    <link type="image/png" sizes="32x32" rel="icon" href="/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <a href="index.html" class="header__logo">
+        <img
+          class="header__logo-img"
+          src="./images/logo.svg"
+          width="66"
+          height="22"
+          alt="Логотп компании bwin"
+        />
+      </a>
+      <h1 class="visually-hidden">Страничка компании "bwin"</h1>
+    </header>
+    <main class="main">
+      <div class="main__wrapper">
+        <h2 class="visually-hidden">Слоган компании "bwin"</h2>
+        <div class="main__slogan slogan">
+          <span class="slogan__text slogan__first-line">100%</span>
+          <span class="slogan__text slogan__second-line">страховка</span>
+          <span class="slogan__text slogan__third-line">первой ставки</span>
+          <span class="slogan__text slogan__fourth-line"
+            >Cтань клиентом bwin и получи фрибет</span
+          >
+          <span class="slogan__text slogan__fifth-line"
+            >на сумму первой ставки, если она не сыграет</span
+          >
+          <button class="main__button-play">Играть без риска</button>
+        </div>
+        <picture>
+          <source media="(min-width: 1440px)" srcset="images/playerFull.png" />
+          <img
+            class="main__player-img"
+            src="images/player.png"
+            alt="Портрет радостного футболиста"
+          />
+        </picture>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <h2 class="visually-hidden">Полезные ссылки</h2>
+        <div class="footer__button-wrapper">
+          <button class="footer__button-regulations">Правила и условия</button>
+        </div>
+        <ul class="footer__store-list store-list">
+          <li class="store-list__item">
+            <a
+              class="store-list__link"
+              href="#"
+              aria-label="Наше приложение в App Store"
+            >
+              <img
+                class="store-list__img"
+                src="images/appStore.svg"
+                alt="Иконка App Store"
+              />
+            </a>
+          </li>
+          <li class="store-list__item">
+            <a
+              class="store-list__link"
+              href="#"
+              aria-label="Наше приложение в Goodle Play"
+            >
+              <img
+                class="store-list__img"
+                src="images/googlePlay.svg"
+                alt="Иконка Goodle Play"
+              />
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__team-list team-list">
+          <li class="team-list__item">
+            <a class="team-list__link" href="#" aria-label="Ссылка на клуб 4">
+              <img
+                class="team-list__img"
+                src="images/4.svg"
+                width="16"
+                height="21"
+                alt="Иконка клуба 4"
+              />
+            </a>
+          </li>
+          <li class="team-list__item">
+            <a class="team-list__link" href="#" aria-label="Ссылка на клуб 3">
+              <img
+                class="team-list__img"
+                src="images/3.svg"
+                width="21"
+                height="21"
+                alt="Иконка клуба 3"
+              />
+            </a>
+          </li>
+          <li class="team-list__item">
+            <a class="team-list__link" href="#" aria-label="Ссылка на клуб 2">
+              <img
+                class="team-list__img"
+                src="images/2.svg"
+                width="21"
+                height="21"
+                alt="Иконка клуба 2"
+              />
+            </a>
+          </li>
+          <li class="team-list__item">
+            <a class="team-list__link" href="#" aria-label="Ссылка на клуб 1">
+              <img
+                class="team-list__img"
+                src="images/1.svg"
+                width="16"
+                height="22"
+                alt="Иконка клуба 1"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="popup">
+      <div class="popup__wrapper">
+        <button class="popup__close" aria-label="Закрыть окно"></button>
+        <h3 class="popup__title">Правила и условия</h3>
+        <p class="popup__text">
+          Букмекерская контора Bwin предлагает всем своим новым клиентам
+          беспроигрышную сделку. Если ваша первая ставка на сайте букмекера
+          окажется неудачной, компания вернет проигранную сумму в полном объеме
+          в качестве фрибета. Этот бонус можно использовать для заключения
+          нового пари, чистый выигрыш с которого достанется вам. Правда, у
+          кэшбека Bwin есть ограничение – максимальная сумма, которую готов
+          компенсировать букмекер, равна 2000 рублей.
+        </p>
+        <h3 class="popup__title">Как это раотает</h3>
+        <p class="popup__text popup__text-marker">
+          Вы регистрируетесь на сайте БК Bwin и проходите процедуру
+          идентификации личности
+        </p>
+        <p class="popup__text popup__text-marker">
+          Делаете первую ставку на реальные деньги
+        </p>
+        <p class="popup__text popup__text-marker">
+          Если проигрываете, получаете свои деньги назад в течение 30 минут с
+          момента расчета
+        </p>
+        <p class="popup__text popup__text-marker">
+          Условия акции распространяются на все типы пари, кроме
+          «суперкоэффициентов» и «комбо+»
+        </p>
+        <p class="popup__text popup__text-marker">
+          Полученный фрибет нужно использовать в течение 7 дней с момента его
+          предоставления
+        </p>
+        <h3 class="popup__title">Важные правила</h3>
+        <p class="popup__text popup__text-marker">
+          В акции могут участвовать только новые пользователи или пользователи,
+          которые до этого не делали ни одной ставки
+        </p>
+        <p class="popup__text popup__text-marker">
+          Фрибет можно использовать только в мобильных приложениях Bwin для iOS
+          и Android
+        </p>
+        <p class="popup__text popup__text-marker">
+          Один игрок может получить только один фрибет
+        </p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
